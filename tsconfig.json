@@ -1,0 +1,16 @@
+{
+  // 编译规则
+  "compilerOptions": {
+    "module": "commonjs",
+    // 目标版本 高版本
+    "target": "ES2017",
+    "outDir": "dist",
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "models/*": ["src/model/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
